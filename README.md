@@ -13,8 +13,9 @@ this is the project to learn and try to use prisma with express.js and mysql dat
 - `pnpm install` or `npm install` to install dependencies.
 - create `.env` like `.env.example`
 - enter your database config at '.env'
-- `tsc -w` to auto compile TypeScript to JavaScript. 
-- `pnpm dev` or `npm run dev` to run server with **nodemon**
+- `npx prisma generate` to generate
+- `npx tsc -w` to auto compile TypeScript to JavaScript. 
+- in another termanal run `pnpm dev` or `npm run dev` to run server with **nodemon**
 - start edit about api at `./src/express.ts`
 
 ## Inside it
