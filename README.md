@@ -1,8 +1,11 @@
-# <p align="center">
+<p align="center">
 <img height="30" width="40" src="https://github.com/tandpfun/skill-icons/raw/main/icons/Prisma.svg" alt="prisma">
 <img height="30" width="40" src="https://github.com/Arikato111/Arikato111/raw/main/icons/typescript-original.svg" alt="typescript">
-
 </p>
+
+# Api Learn Prisma
+
+this is the project to learn and try to use prisma with express.js and mysql database
 
 ## Get started
 
