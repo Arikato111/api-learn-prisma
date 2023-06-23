@@ -3,7 +3,7 @@
 <img height="30" width="40" src="https://github.com/Arikato111/Arikato111/raw/main/icons/typescript-original.svg" alt="typescript">
 </p>
 
-# Api Learn Prisma
+# <p align="center">Api Learn Prisma</p>
 
 this is the project to learn and try to use prisma with express.js and mysql database
 
