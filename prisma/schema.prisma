@@ -3,16 +3,16 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
 model users {
-  id       Int      @id @default(autoincrement())
-  name     String   @db.VarChar(50)
-  date     DateTime @default(dbgenerated("now()")) @db.DateTime()
-  phone    String   @db.VarChar(10)
-  address  String   @db.Text()
-  username String   @db.VarChar(50)
-  password String   @db.VarChar(50)
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  date     DateTime @default(now())
+  phone    String
+  address  String
+  username String
+  password String
 }
