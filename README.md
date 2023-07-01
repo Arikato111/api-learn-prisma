@@ -4,7 +4,7 @@
 <img height="30" width="40" src="https://github.com/Arikato111/Arikato111/raw/main/icons/mongodb-plain.svg" alt="mongodb">
 </p>
 
-# <p align="center">Api Learn Prisma</p>
+# <p align="center">Learn Prisma Api</p>
 
 this is the project to learn and try to use prisma with express.js and mongodb database
 
