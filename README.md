@@ -28,5 +28,5 @@ this is the project to learn and try to use prisma with express.js and mongodb d
 
 ## TODOs
 
-- [ ] read, add, update, delete users.
+- [x] read, add, update, delete users.
 
