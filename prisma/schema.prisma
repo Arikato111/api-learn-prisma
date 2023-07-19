@@ -13,6 +13,6 @@ model users {
   date     DateTime @default(now())
   phone    String
   address  String
-  username String
+  username String   @unique
   password String
 }
